@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoForex Investment</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; max-width: 1200px; margin: auto; padding: 20px; }
+        header { background: #2c3e50; color: white; text-align: center; padding: 2rem; }
+        h1 { font-size: 2rem; }
+        nav { margin: 20px 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 40px 20px; }
+        .plan { background: #ecf0f1; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .plan h3 { margin-bottom: 10px; }
+        ul { list-style: disc; margin-left: 20px; }
+        form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 10px; background: #2c3e50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #1a252f; }
+        footer { text-align: center; padding: 20px; background: #ecf0f1; margin-top: 40px; }
+        @media (max-width: 600px) { section { padding: 20px 10px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CryptoForex Investment</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#plan">Investment Plan</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to CryptoForex Investment</h2>
+        <p>Join our trading pool and earn a guaranteed 40% ROI in just 35 days. Minimum $100, maximum $1000.</p>
+    </section>
+
+    <section id="plan" class="plan">
+        <h2>Our Investment Plan</h2>
+        <div class="plan-details">
+            <h3>Key Features</h3>
+            <ul>
+                <li>40% Return on Investment after 35 days.</li>
+                <li>Minimum investment: $100 | Maximum investment: $1000.</li>
+                <li>Withdraw capital anytime with a 25% charge if before 35 days.</li>
+                <li>To qualify for the full 40% ROI, complete 2 of 4 daily tasks (see below).</li>
+            </ul>
+            <h3>Daily Tasks (Pick 2)</h3>
+            <ul>
+                <li>Watch a 30-second ad.</li>
+                <li>Share a referral link on social media.</li>
+                <li>Complete a 1-minute market survey.</li>
+                <li>Read a 200-word trading tip article.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a group of experienced traders pooling funds to trade the crypto and forex markets. Our profits come from smart trading strategies, supplemented by revenue from advertisements and user engagement tasks. Our goal is to share these gains with you, offering a reliable 40% ROI after 35 days.</p>
+        <p><strong>How We Generate Funds:</strong> Expert trading in cryptocurrency and forex, plus ad revenue from our task system.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="alert('Form submitted! (This is a demo, no data is saved.)'); return false;">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 CryptoForex Investment. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
+
